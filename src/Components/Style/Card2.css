@@ -1,0 +1,107 @@
+.row-2 {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 20px;
+  }
+
+.col {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+  }
+
+  .cardtittle {
+    font-size: 20px;
+    padding: 5px;
+    text-transform: capitalize;
+  }
+  .cardnumber {
+    font-size: 25px;
+    padding: 10px;
+    /* padding-right: 0; */
+    background: rgba(255, 255, 255, 0.6);
+    color: #000;
+    font-weight: normal;
+    text-shadow: 1px 1px 1px rgba(16, 16, 16, 0.1),
+      1px 2px 1px rgba(16, 16, 16, 0.1), 1px 3px 1px rgba(16, 16, 16, 0.1),
+      1px 4px 1px rgba(16, 16, 16, 0.1), 1px 5px 1px rgba(16, 16, 16, 0.1);
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .cardholder {
+    font-size: 18px;
+    padding: 20px;
+    font-weight: normal;
+  }
+  
+  
+  .price{
+      text-align: center;
+      font-size: 25px;
+    font-weight: 700;
+  }
+  
+  .col .t-i,
+  .p-i,
+  .u-i,
+  .i-s {
+    font-size: 25px;
+    font-weight: 700;
+    /* padding: 20px 5px 20px 20px; */
+    display: inline-block;
+    text-align: center;
+    /* justify-content: center; */
+  }
+  
+  
+  
+  .total-invoice .status {
+    font-weight: 700;
+    color: #339933;
+    font-size: 16px;
+    padding-left: 5px;
+  }
+  
+  .paid-invoice .status {
+    background: #0066cc;
+  }
+  
+  .unpaid-invoice .status {
+    background: #ff0066;
+  }
+  
+  .invoice-sent .status {
+    background: #ffcc00;
+  }
+  
+  
+  .button-70 {
+      background-image: linear-gradient(#0dccea, #0d70ea);
+      border: 0;
+      border-radius: 4px;
+      box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      font-family: Montserrat,sans-serif;
+      font-size: .5em;
+      margin: 5px;
+      padding: 10px 15px;
+      text-align: center;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+  
+  .ip{
+    border: none;
+    border-radius: 30px;
+  }
+
+  .chi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

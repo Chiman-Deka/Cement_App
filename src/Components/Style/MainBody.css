@@ -1,0 +1,24 @@
+
+.main-body .headtittle {
+    padding: 15px;
+    margin: 20px;
+    margin-bottom: 0;
+  }
+  
+.main-body .headtittle span {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  
+.main-body .headtittle h2 {
+    font-size: 25px;
+    font-weight: normal;
+  }
+  
+.main-body .cards {
+    display: grid;
+    grid-template-rows: 180px 140px;
+    grid-gap: 20px;
+    padding: 20px;
+  }

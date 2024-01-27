@@ -1,0 +1,111 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 25px;
+    margin-top: 1em;
+  }
+  
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(-360deg);
+    }
+  }
+  
+  .navbar .logo .logoname {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 0.5em;
+    color: #000;
+    text-shadow: 1px 1px 1px rgba(16, 16, 16, 0.1),
+      1px 2px 1px rgba(16, 16, 16, 0.2), 1px 3px 1px rgba(16, 16, 16, 0.1),
+      1px 4px 1px rgba(16, 16, 16, 0.2), 1px 5px 1px rgba(16, 16, 16, 0.1),
+      1px 6px 1px rgba(16, 16, 16, 0.2);
+  }
+  
+  .searchbox {
+    position: relative;
+  }
+  
+  .searchbox input {
+    padding: 8px 120px 8px 20px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    transition: 0.3s;
+  }
+  
+  .searchbox input:focus {
+    padding: 8px 250px 8px 20px;
+  }
+  
+  .searchbox .fa {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .navbar .navitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .navitem .icons {
+    position: relative;
+    right: 1em;
+  }
+  
+  .navitem .icons ul li {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 12px;
+  }
+  
+  .navitem .icons ul li .fa {
+    padding: 5px;
+    color: #fff;
+    background: #000;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+  
+  .navitem .icons ul li .fa:hover {
+    transform: scale(1.2) rotate(360deg);
+    color: #33cc33;
+    background: transparent;
+  }
+  
+  .navitem .account {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navitem .account img {
+    border-radius: 50%;
+  }
+  
+  .navitem .account .name {
+    text-transform: capitalize;
+    margin: 0 8px;
+    font-weight: 700;
+  }
+  
+  .navitem .account .username {
+    position: absolute;
+    top: 18px;
+    left: 32px;
+    font-size: 12px;
+    color: #000;
+  }
